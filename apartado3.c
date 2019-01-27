@@ -1,34 +1,34 @@
 #include <stdio.h>
 
 // Direcciones de los registros
-#define INSERT_BASE 0xC5400000;
-#define VALOR_BASE  0xC5400004;
-#define TOTAL_BASE  0xC5400008;
-#define RESTO_BASE  0xC540000c;
+#define INSERT_BASE 0xC5400000
+#define VALOR_BASE  0xC5400004
+#define TOTAL_BASE  0xC5400008
+#define RESTO_BASE  0xC540000c
 
 // Direcciones de memoria
-#define LED_BASE    0x81420000;
-#define BOTON_BASE  0x81400000;
-#define SWITCH_BASE 0x81440000;
-#define SEG7_BASE  	0xce200000;
-#define SEG71_BASE  0xce200004;
-#define SEG72_BASE  0xce200008;
-#define SEG73_BASE  0xce20000c;
+#define LED_BASE    0x81420000
+#define BOTON_BASE  0x81400000
+#define SWITCH_BASE 0x81440000
+#define SEG7_BASE  	0xce200000
+#define SEG71_BASE  0xce200004
+#define SEG72_BASE  0xce200008
+#define SEG73_BASE  0xce20000c
 
 // Valor de cada moneda
-#define VALOR_MONEDA1 2;
-#define VALOR_MONEDA2 20;
-#define VALOR_MONEDA3 100;
+#define VALOR_MONEDA1 2
+#define VALOR_MONEDA2 20
+#define VALOR_MONEDA3 100
 
 // Valor de cada bebida
-#define VALOR_BEBIDA1 168;
-#define VALOR_BEBIDA2 198;
-#define VALOR_BEBIDA3 214;
+#define VALOR_BEBIDA1 168
+#define VALOR_BEBIDA2 198
+#define VALOR_BEBIDA3 214
 
 // Numero inicial de monedas en el monedero.
-#define MONEDA1 5;
-#define MONEDA2 9;
-#define MONEDA3 9;
+#define MONEDA1 5
+#define MONEDA2 9
+#define MONEDA3 9
 
 // variables globales
 int *LEDS 		= (int *)LED_BASE;

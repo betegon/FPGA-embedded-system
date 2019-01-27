@@ -1,24 +1,24 @@
 #include <stdio.h>
 
 // Direcciones de los registros
-#define INSERT_BASE 0xC5400000;
-#define VALOR_BASE  0xC5400004;
-#define TOTAL_BASE  0xC5400008;
-#define RESTO_BASE  0xC540000c;
+#define INSERT_BASE 0xC5400000
+#define VALOR_BASE  0xC5400004
+#define TOTAL_BASE  0xC5400008
+#define RESTO_BASE  0xC540000c
 
 // Direcciones de memoria
-#define LED_BASE    0x81420000;
-#define BOTON_BASE  0x81400000;
-#define SWITCH_BASE 0x81440000;
-#define SEG7_BASE   0xce200000;
+#define LED_BASE    0x81420000
+#define BOTON_BASE  0x81400000
+#define SWITCH_BASE 0x81440000
+#define SEG7_BASE   0xce200000
 
 // Valor de cada moneda
-#define VALOR_MONEDA1 2;
-#define	VALOR_MONEDA2 20;
-#define VALOR_MONEDA3 100;
+#define VALOR_MONEDA1 2
+#define	VALOR_MONEDA2 20
+#define VALOR_MONEDA3 100
 
 // Valor de la bebida
-#define VALOR_BEBIDA 220;
+#define VALOR_BEBIDA 220
 
 // variables globales
 int *INSERT     = (int *)INSERT_BASE;
